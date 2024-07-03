@@ -1,0 +1,5 @@
+<?php
+$jugador = array("García", "Martínez", "López", "Rodríguez", "González");
+$mensaje = "La alineación del equipo está compuesta por (" . implode(", ", $jugador) . ").";
+echo $mensaje;
+?>
