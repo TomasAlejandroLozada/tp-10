@@ -1,0 +1,6 @@
+<?php
+$confirmado = array(true, false, true, false, true, false);
+
+echo "El elemento con índice 0 es: ";
+var_dump($confirmado[0]);
+?>
