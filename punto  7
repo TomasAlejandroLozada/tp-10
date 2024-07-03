@@ -1,0 +1,16 @@
+<?php
+$usuarios = array(
+    "usuario1" => "clave123",
+    "usuario2" => "abc456",
+    "usuario3" => "passw0rd",
+    "usuario4" => "secure789",
+    "usuario5" => "access2023"
+);
+
+echo "Claves de acceso de los usuarios:<br>";
+echo "Usuario 1: " . $usuarios["usuario1"] . "<br>";
+echo "Usuario 2: " . $usuarios["usuario2"] . "<br>";
+echo "Usuario 3: " . $usuarios["usuario3"] . "<br>";
+echo "Usuario 4: " . $usuarios["usuario4"] . "<br>";
+echo "Usuario 5: " . $usuarios["usuario5"] . "<br>";
+?>
