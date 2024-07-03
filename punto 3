@@ -1,0 +1,5 @@
+<?php
+$importe = array(12.34, 45.67, 89.01, 123.45);
+
+echo "El elemento con índice 1 es: " . $importe[1];
+?>
